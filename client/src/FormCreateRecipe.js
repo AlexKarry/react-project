@@ -59,7 +59,7 @@ const FormCreateRecipe = ({ addRecipe }) => {
           onChange={handleInputChange}
         />
 
-        <Button type="submit">Add Recipe</Button>
+        <Button type="submit">Add Recipe Test</Button>
       </form>
     </div>
   );

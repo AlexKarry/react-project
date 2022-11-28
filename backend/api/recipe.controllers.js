@@ -56,11 +56,11 @@ exports.upload = function (req, res) {
 exports.import = function (req, res) {
   Recipe.create(
     {
-      title: "Lasagna Test",
+      title: "Walker, Texas Ranger",
       description:
-        "Lasagna noodles piled high and layered full of three kinds of cheese to go along with the perfect blend of meaty and zesty, tomato pasta sauce all loaded with herbs.",
+        "Texas Ranger Cordell Walker kicks posterior -- usually in slo-mo. Because of his martial-arts skills, he has a competitive edge against the bad guys. With the help of retired ranger C.D. Parker, partner James Trivette and A.D.A. Alex Cahill, Walker ruthlessly fights for justice.",
       image: "lasagna.png",
-      year: "2015",
+      year: "1993 – 2001",
     },
     {
       title: "Pho-Chicken Noodle Soup",
