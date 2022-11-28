@@ -56,7 +56,7 @@ exports.upload = function (req, res) {
 exports.import = function (req, res) {
   Recipe.create(
     {
-      title: "Lasagna",
+      title: "Lasagna Test",
       description:
         "Lasagna noodles piled high and layered full of three kinds of cheese to go along with the perfect blend of meaty and zesty, tomato pasta sauce all loaded with herbs.",
       image: "lasagna.png",
